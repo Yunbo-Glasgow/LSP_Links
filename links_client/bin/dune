@@ -1,4 +1,4 @@
 (executable
  (public_name links_client)
  (name main)
- (libraries links_client))
+ (libraries links_client lwt.unix))
