@@ -1,0 +1,4 @@
+(executable
+ (public_name links_client)
+ (name main)
+ (libraries links_client))
