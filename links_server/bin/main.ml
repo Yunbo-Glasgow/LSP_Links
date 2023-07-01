@@ -1,1 +1,1 @@
-let () = print_endline "Hello, Client!"
+let () = print_endline "Hello, Server!"
