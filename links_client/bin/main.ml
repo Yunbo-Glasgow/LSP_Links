@@ -15,8 +15,6 @@ let client () =
       else (
         output_string out_chan (message ^ "\n");
         flush out_chan;
-        let response = input_line in_chan in
-        print_endline ("Server response: " ^ response)
       )
     done
   with End_of_file ->
